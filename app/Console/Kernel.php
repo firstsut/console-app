@@ -14,6 +14,9 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         //
+	    \App\Console\Commands\TextInput::class,
+	    \App\Console\Commands\TextOutput::class,
+	    \App\Console\Commands\TextSearch::class,
     ];
 
     /**
